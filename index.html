@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,97 +6,91 @@
   <title>Bangalore Charitable Trust | Palliative & Elderly Care</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .parallax {
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
 </head>
-<body class="text-gray-800 bg-gray-50 font-sans leading-relaxed scroll-smooth">
+<body class="text-gray-800 bg-gray-50 font-sans leading-relaxed">
 
   <!-- Hero Section -->
-  <section class="relative text-white text-center py-32 px-6 bg-cover bg-center" style="background-image: url('bctcover.jpg');">
-    <div class="absolute inset-0 bg-green-900 opacity-70"></div>
-    <div class="relative z-10 max-w-4xl mx-auto">
-      <h1 class="text-5xl font-extrabold leading-tight">Bangalore Charitable Trust</h1>
-      <p class="mt-6 text-xl">Palliative & Elderly Care with Compassion, Dignity, and Commitment</p>
-      <a href="#donate" class="mt-8 inline-block bg-yellow-400 text-green-900 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition transform hover:-translate-y-1">Donate Now</a>
+  <section class="relative text-white text-center py-40 px-6 parallax" style="background-image: url('bctcover.jpg');">
+    <div class="absolute inset-0 bg-green-900 opacity-80"></div>
+    <div class="relative z-10 max-w-4xl mx-auto animate-fade-in">
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">Bangalore Charitable Trust</h1>
+      <p class="mt-6 text-xl md:text-2xl">Compassionate Palliative & Elderly Care You Can Trust</p>
+      <a href="#donate" class="mt-10 inline-block bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-full shadow-xl hover:bg-yellow-300 transition transform hover:scale-105">Donate Now</a>
     </div>
   </section>
 
-  <!-- Wave Divider -->
-  <div class="overflow-hidden -mt-1">
-    <svg viewBox="0 0 1440 100" class="w-full text-white fill-current">
-      <path d="M0,0 C360,100 1080,0 1440,100 L1440,0 L0,0 Z"></path>
-    </svg>
-  </div>
-
   <!-- About Section -->
-  <section class="py-20 px-6 max-w-5xl mx-auto">
-    <h2 class="text-4xl font-bold text-center mb-8">About Us</h2>
-    <p class="text-lg leading-relaxed text-gray-700 text-center">Established in 2017, Bangalore Charitable Trust (BCT) is a non-profit dedicated to palliative and geriatric care. We offer hospice services, old age homes, home visits, and pain management education, led by skilled medical professionals with a mission to serve with compassion.</p>
+  <section class="py-24 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">About Us</h2>
+    <p class="text-lg text-gray-700 leading-relaxed">Founded in 2017, Bangalore Charitable Trust (BCT) is a non-profit organization providing end-of-life care with a heart. Our services include palliative care, home visits, old age support, and hospice education. Backed by medical professionals, our mission is driven by empathy and dignity.</p>
   </section>
 
   <!-- Vision & Mission Section -->
-  <section class="bg-gray-100 py-20 px-6 max-w-5xl mx-auto">
-    <h2 class="text-4xl font-bold text-center mb-8">Vision & Mission</h2>
-    <div class="grid md:grid-cols-2 gap-8 text-lg text-gray-700">
+  <section class="bg-gray-100 py-24 px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 text-center md:text-left">
       <div>
-        <h3 class="text-2xl font-semibold mb-2">Our Vision</h3>
-        <p>To alleviate the physical and psychological discomfort of patients with incurable cancer and terminal illness through compassionate care.</p>
+        <h3 class="text-3xl font-semibold mb-3 text-green-700">Our Vision</h3>
+        <p class="text-lg text-gray-700">To alleviate physical and emotional pain for terminally ill cancer patients and provide dignified care for those in their final stages of life.</p>
       </div>
       <div>
-        <h3 class="text-2xl font-semibold mb-2">Our Mission</h3>
-        <p>To support patients and families with dignity, ensuring they live the remainder of their lives with comfort, care, and emotional well-being.</p>
+        <h3 class="text-3xl font-semibold mb-3 text-green-700">Our Mission</h3>
+        <p class="text-lg text-gray-700">To affirm life, provide physical and emotional care to patients, and support families through the challenges of life-threatening illness.</p>
       </div>
     </div>
   </section>
 
-  <!-- Objectives Section -->
-  <section class="py-20 px-6 max-w-5xl mx-auto">
-    <h2 class="text-4xl font-bold text-center mb-8">Our Objectives & Core Values</h2>
-    <ul class="list-disc pl-8 space-y-4 text-lg text-gray-700">
-      <li>Deliver compassionate palliative care to the terminally ill.</li>
-      <li>Provide holistic support—medical, emotional, spiritual.</li>
-      <li>Uphold values of <strong>Compassion, Care, Commitment, Competence</strong>.</li>
-      <li>Train healthcare professionals in community-based care.</li>
-      <li>Collaborate with government bodies and NGOs to scale outreach.</li>
+  <!-- Objectives -->
+  <section class="py-24 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">Our Objectives & Values</h2>
+    <ul class="space-y-4 text-lg text-gray-700 text-left list-inside list-disc">
+      <li>Deliver quality palliative care for the terminally ill</li>
+      <li>Offer emotional, spiritual, and social support</li>
+      <li>Promote Compassion, Care, Commitment, Competence</li>
+      <li>Train healthcare workers in community palliative management</li>
+      <li>Collaborate with government bodies & NGOs for extended care</li>
     </ul>
   </section>
 
-  <!-- Services Section -->
-  <section class="bg-white py-20 px-6 max-w-5xl mx-auto">
-    <h2 class="text-4xl font-bold text-center mb-8">Our Services</h2>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-gray-700 text-lg">
-      <div class="flex items-start gap-3"><i class="fas fa-user-md text-green-700 text-xl mt-1"></i> Geriatric Care</div>
-      <div class="flex items-start gap-3"><i class="fas fa-heartbeat text-green-700 text-xl mt-1"></i> Palliative Care</div>
-      <div class="flex items-start gap-3"><i class="fas fa-home text-green-700 text-xl mt-1"></i> Home Care Visits</div>
-      <div class="flex items-start gap-3"><i class="fas fa-clinic-medical text-green-700 text-xl mt-1"></i> Outpatient Services</div>
-      <div class="flex items-start gap-3"><i class="fas fa-users text-green-700 text-xl mt-1"></i> Old Age Homes</div>
-      <div class="flex items-start gap-3"><i class="fas fa-chalkboard-teacher text-green-700 text-xl mt-1"></i> Training Programs</div>
+  <!-- Services -->
+  <section class="bg-white py-24 px-6 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-10">Our Services</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 text-lg text-gray-700">
+      <div class="flex items-start gap-4"><i class="fas fa-user-md text-green-700 text-2xl mt-1"></i> Geriatric Care</div>
+      <div class="flex items-start gap-4"><i class="fas fa-heartbeat text-green-700 text-2xl mt-1"></i> Palliative & Hospice Support</div>
+      <div class="flex items-start gap-4"><i class="fas fa-home text-green-700 text-2xl mt-1"></i> Home Care Services</div>
+      <div class="flex items-start gap-4"><i class="fas fa-clinic-medical text-green-700 text-2xl mt-1"></i> Outpatient Pain Management</div>
+      <div class="flex items-start gap-4"><i class="fas fa-users text-green-700 text-2xl mt-1"></i> Elder Residential Facilities</div>
+      <div class="flex items-start gap-4"><i class="fas fa-chalkboard-teacher text-green-700 text-2xl mt-1"></i> Medical Training Programs</div>
     </div>
-    <div class="mt-10 grid md:grid-cols-2 gap-6">
-      <img src="bctimg1.jpg" alt="Ward 1" class="rounded-lg shadow">
-      <img src="bctimg2.png" alt="Ward 2" class="rounded-lg shadow">
+
+    <div class="mt-12 grid md:grid-cols-2 gap-6">
+      <img src="bctimg1.jpg" alt="Facility Ward" class="rounded-lg shadow-lg">
+      <img src="bctimg2.png" alt="Patient Ward" class="rounded-lg shadow-lg">
     </div>
   </section>
 
   <!-- Care Impact -->
-  <section class="bg-green-100 py-20 px-6 max-w-5xl mx-auto">
-    <h2 class="text-4xl font-bold text-center mb-6">Care Impact</h2>
-    <div class="md:flex items-center gap-8">
-      <div class="md:w-1/2">
-        <p class="text-lg text-gray-800">
-          We’ve cared for over <strong>190 patients</strong>—mostly seniors suffering from cancer, Alzheimer’s, paralysis, and chronic illness.
-          With limited capacity, we aim to expand our services and continue offering high-quality, dignified care to those in need.
-        </p>
-      </div>
-      <div class="md:w-1/2 mt-8 md:mt-0">
-        <img src="bctimg1.jpg" alt="Patient room" class="rounded shadow-md">
-      </div>
-    </div>
+  <section class="bg-green-100 py-24 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">Our Impact</h2>
+    <p class="text-lg text-gray-800 mb-6">Since our inception, BCT has supported over <strong>190 patients</strong>, including those with cancer, Alzheimer’s, paralysis, and chronic conditions. We continue to operate at full capacity and strive to expand our reach.</p>
+    <img src="bctimg1.jpg" alt="BCT Patients" class="mx-auto rounded shadow-md max-w-xl">
   </section>
 
-  <!-- Donation Section -->
-  <section id="donate" class="bg-yellow-100 py-20 px-6 max-w-5xl mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-6">Support Our Mission</h2>
-    <p class="mb-6 text-lg text-gray-800">Your donation helps us provide free care to terminally ill patients. All donations are 80G tax-exempt.</p>
-    <div class="bg-white p-6 rounded-lg shadow-lg inline-block text-left text-gray-700">
+  <!-- Donation -->
+  <section id="donate" class="bg-yellow-50 py-24 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-4">Support Our Mission</h2>
+    <p class="text-lg mb-6">Your donation brings dignity and care to those in need. Contributions are eligible under 80G of the Income Tax Act.</p>
+    <div class="bg-white shadow-xl rounded-lg inline-block text-left p-6">
       <p><strong>Account Name:</strong> Bangalore Charitable Trust</p>
       <p><strong>Account Number:</strong> 845820110000130</p>
       <p><strong>IFSC:</strong> BKID0008458</p>
@@ -106,14 +99,12 @@
   </section>
 
   <!-- Contact -->
-  <section class="bg-gray-800 text-white py-16 px-6">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
-      <p class="mb-2">Bangalore Charitable Trust</p>
-      <p class="mb-2">Hennur-Bagalur Main Road,Kothanur, Bengaluru-560077</p>
-      <p class="mb-2">Email: <a href="mailto:info@bangalorecharitabletrust.com" class="underline">info@bangalorecharitabletrust.com</a></p>
-      <p>Phone: <a href="tel:+917349116666" class="underline">+91 73491 16666</a></p>
-    </div>
+  <section class="bg-gray-800 text-white py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+    <p class="mb-2">Bangalore Charitable Trust</p>
+    <p class="mb-2">Hennur-Bagalur Main Road, Kothanur, Bengaluru - 560077</p>
+    <p class="mb-2">Email: <a href="mailto:info@bangalorecharitabletrust.com" class="underline">info@bangalorecharitabletrust.com</a></p>
+    <p>Phone: <a href="tel:+917349116666" class="underline">+91 73491 16666</a></p>
   </section>
 
   <!-- Footer -->
