@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bangalore Charitable Trust | Palliative & Elderly Care</title>
+  <title>Bangalore Charitable Trust | Palliative &amp; Elderly Care</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
     .parallax {
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
+    }
+    @media (max-width: 768px) {
+      .parallax { background-attachment: scroll; }
     }
   </style>
 </head>
@@ -22,17 +23,18 @@
   <!-- Hero Section -->
   <section class="relative text-white text-center py-40 px-6 parallax" style="background-image: url('bctcover.jpg');">
     <div class="absolute inset-0 bg-green-900 opacity-80"></div>
-    <div class="relative z-10 max-w-4xl mx-auto animate-fade-in">
+    <div class="relative z-10 max-w-4xl mx-auto">
       <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">Bangalore Charitable Trust</h1>
-      <p class="mt-6 text-xl md:text-2xl">Compassionate Palliative & Elderly Care You Can Trust</p>
-      <a href="#donate" class="mt-10 inline-block bg-yellow-400 text-green-900 font-bold px-8 py-3 rounded-full shadow-xl hover:bg-yellow-300 transition transform hover:scale-105">Donate Now</a>
+      <p class="mt-6 text-xl md:text-2xl">Compassionate Palliative &amp; Elderly Care You Can Trust</p>
     </div>
   </section>
 
   <!-- About Section -->
   <section class="py-24 px-6 max-w-5xl mx-auto text-center">
     <h2 class="text-4xl font-bold mb-6">About Us</h2>
-    <p class="text-lg text-gray-700 leading-relaxed">Founded in 2017, Bangalore Charitable Trust (BCT) is a non-profit organization providing end-of-life care with a heart. Our services include palliative care, home visits, old age support, and hospice education. Backed by medical professionals, our mission is driven by empathy and dignity.</p>
+    <p class="text-lg text-gray-700 leading-relaxed">
+      Founded in 2017, Bangalore Charitable Trust (BCT) is a non-profit organization providing end-of-life care with a heart. Our services include palliative care, home visits, old age support, and hospice education. Backed by medical professionals, our mission is driven by empathy and dignity.
+    </p>
   </section>
 
   <!-- Vision & Mission Section -->
@@ -40,24 +42,28 @@
     <div class="grid md:grid-cols-2 gap-12 text-center md:text-left">
       <div>
         <h3 class="text-3xl font-semibold mb-3 text-green-700">Our Vision</h3>
-        <p class="text-lg text-gray-700">To alleviate physical and emotional pain for terminally ill cancer patients and provide dignified care for those in their final stages of life.</p>
+        <p class="text-lg text-gray-700">
+          To alleviate physical and emotional pain for terminally ill cancer patients and provide dignified care for those in their final stages of life.
+        </p>
       </div>
       <div>
         <h3 class="text-3xl font-semibold mb-3 text-green-700">Our Mission</h3>
-        <p class="text-lg text-gray-700">To affirm life, provide physical and emotional care to patients, and support families through the challenges of life-threatening illness.</p>
+        <p class="text-lg text-gray-700">
+          To affirm life, provide physical and emotional care to patients, and support families through the challenges of life-threatening illness.
+        </p>
       </div>
     </div>
   </section>
 
   <!-- Objectives -->
   <section class="py-24 px-6 max-w-5xl mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-8">Our Objectives & Values</h2>
+    <h2 class="text-4xl font-bold mb-8">Our Objectives &amp; Values</h2>
     <ul class="space-y-4 text-lg text-gray-700 text-left list-inside list-disc">
       <li>Deliver quality palliative care for the terminally ill</li>
       <li>Offer emotional, spiritual, and social support</li>
       <li>Promote Compassion, Care, Commitment, Competence</li>
       <li>Train healthcare workers in community palliative management</li>
-      <li>Collaborate with government bodies & NGOs for extended care</li>
+      <li>Collaborate with government bodies &amp; NGOs for extended care</li>
     </ul>
   </section>
 
@@ -66,7 +72,7 @@
     <h2 class="text-4xl font-bold text-center mb-10">Our Services</h2>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 text-lg text-gray-700">
       <div class="flex items-start gap-4"><i class="fas fa-user-md text-green-700 text-2xl mt-1"></i> Geriatric Care</div>
-      <div class="flex items-start gap-4"><i class="fas fa-heartbeat text-green-700 text-2xl mt-1"></i> Palliative & Hospice Support</div>
+      <div class="flex items-start gap-4"><i class="fas fa-heartbeat text-green-700 text-2xl mt-1"></i> Palliative &amp; Hospice Support</div>
       <div class="flex items-start gap-4"><i class="fas fa-home text-green-700 text-2xl mt-1"></i> Home Care Services</div>
       <div class="flex items-start gap-4"><i class="fas fa-clinic-medical text-green-700 text-2xl mt-1"></i> Outpatient Pain Management</div>
       <div class="flex items-start gap-4"><i class="fas fa-users text-green-700 text-2xl mt-1"></i> Elder Residential Facilities</div>
@@ -82,15 +88,19 @@
   <!-- Care Impact -->
   <section class="bg-green-100 py-24 px-6 max-w-5xl mx-auto text-center">
     <h2 class="text-4xl font-bold mb-6">Our Impact</h2>
-    <p class="text-lg text-gray-800 mb-6">Since our inception, BCT has supported over <strong>190 patients</strong>, including those with cancer, Alzheimer’s, paralysis, and chronic conditions. We continue to operate at full capacity and strive to expand our reach.</p>
+    <p class="text-lg text-gray-800 mb-6">
+      Since our inception, BCT has supported over <strong>190 patients</strong>, including those with cancer, Alzheimer’s, paralysis, and chronic conditions. We continue to operate at full capacity and strive to expand our reach.
+    </p>
     <img src="bctimg1.jpg" alt="BCT Patients" class="mx-auto rounded shadow-md max-w-xl">
   </section>
 
   <!-- Donation -->
   <section id="donate" class="bg-yellow-50 py-24 px-6 max-w-6xl mx-auto">
     <h2 class="text-4xl font-bold mb-4 text-center">Support Our Mission</h2>
-    <p class="text-lg mb-6 text-center">Your donation brings dignity and care to those in need. Contributions are eligible under 80G of the Income Tax Act.</p>
-    
+    <p class="text-lg mb-6 text-center">
+      Your donation brings dignity and care to those in need. Contributions are eligible under 80G of the Income Tax Act.
+    </p>
+
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <!-- Left Side - Account Details -->
       <div class="bg-white shadow-xl rounded-lg p-6 text-left">
@@ -99,7 +109,7 @@
         <p><strong>IFSC:</strong> BKID0008458</p>
         <p><strong>Bank:</strong> Bank of India, Kothanur Branch</p>
       </div>
-      
+
       <!-- Right Side - QR Code -->
       <div class="flex justify-center">
         <img src="Account Details.jpg" alt="QR Scanner" class="max-w-xs rounded-lg shadow-lg">
@@ -111,14 +121,25 @@
   <section class="bg-gray-800 text-white py-20 px-6 text-center">
     <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
     <p class="mb-2">Bangalore Charitable Trust</p>
-    <p class="mb-2">Hennur-Bagalur Main Road, Kothanur, Bengaluru - 560077</p>
-    <p class="mb-2">Email: <a href="mailto:info@bangalorecharitabletrust.com" class="underline">info@bangalorecharitabletrust.com</a></p>
-    <p>Phone: <a href="tel:+917349116666" class="underline">+91 73491 16666</a></p>
+    <p class="mb-2">
+      #64/BF2, Lotus Grey Pearl,<br>
+      3rd Cross, Amar Regency Layout,<br>
+      Horamavu, Bengaluru-560043
+    </p>
+    <p class="mb-2">
+      Email:
+      <a href="mailto:info@bangalorecharitabletrust.com" class="underline">info@bangalorecharitabletrust.com</a>
+    </p>
+    <p>
+      Phone:
+      <a href="tel:+917349116666" class="underline">+91 73491 16666</a>
+    </p>
   </section>
 
   <!-- Footer -->
   <footer class="bg-black text-white text-center py-6 text-sm">
-    &copy; 2025 Bangalore Charitable Trust. All Rights Reserved. | Reg. No: BK-IV-26/17-18 | PAN: AADTB0793N
+    &copy; 2025 Bangalore Charitable Trust. All Rights Reserved. |
+    Reg. No: BK-IV-26/17-18 | PAN: AADTB0793N
   </footer>
 
 </body>
